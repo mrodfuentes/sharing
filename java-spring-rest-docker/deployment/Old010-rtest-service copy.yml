@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: rtest-spring
+  namespace: rtest
+  labels:
+    app: rtest-spring
+spec:
+  type: ClusterIP
+  selector:
+    app: rtest-spring
+  ports:
+    - name: rtest-spring
+      port: 80
+      protocol: TCP
+      targetPort: 8080 
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: rtest-spring
+  namespace: rtest
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+  selector:
+    app: rtest-spring
+---
+
+
+

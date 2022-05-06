@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rtest-spring
+  namespace: rtest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rtest-spring
+  template:
+    metadata:
+      labels:
+        app: rtest-spring
+    spec:
+      nodeSelector:
+        beta.kubernetes.io/os: linux
+      containers:
+        - name: rtest-spring
+          image:  mrodfuentes/rtest:latest
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 250m
+              memory: 256Mi
+#          ports:
+#            - containerPort: 8080
