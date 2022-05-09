@@ -4,7 +4,7 @@ The following configuration follows the tutorial https://learn.hashicorp.com/tut
 
 1.  Follow the steps of the tutorial until you do: 
 ```
-git clone https://github.com/hashicorp/learn-terraform-provision-aks-cluster
+https://learn.hashicorp.com/tutorials/terraform/aks?in=terraform/kubernetes#prerequisites
 ```
 
 2. Replace the default configuration by one valid for a free account:
