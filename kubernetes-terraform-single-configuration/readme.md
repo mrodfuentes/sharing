@@ -9,7 +9,7 @@ git clone https://github.com/hashicorp/learn-terraform-provision-aks-cluster
 
 2. Replace the default configuration by one valid for a free account:
 
-In aks-cluster.tf replace red parameters by green parameters (location and vm_size)
+In aks-cluster.tf replace red parameters by green parameters (location and vm_size) in "aks-cluster.tf" file.
 
 ![image](https://user-images.githubusercontent.com/5442722/167361548-7da92762-7e13-424a-b318-14b54cfd87c4.png)
 
