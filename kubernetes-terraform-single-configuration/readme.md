@@ -1,6 +1,6 @@
 # Terraform Kubernetes Single Configuration
 
-The following configuration follows the tutorial https://learn.hashicorp.com/tutorials/terraform/aks?in=terraform/kubernetes replacing some data for a free account.
+The following configuration follows the tutorial https://learn.hashicorp.com/tutorials/terraform/aks?in=terraform/kubernetes#prerequisites replacing some data for a free account.
 
 1.  Follow the steps of the tutorial until you do: 
 ```
