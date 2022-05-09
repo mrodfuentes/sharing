@@ -17,7 +17,7 @@ In aks-cluster.tf replace red parameters by green parameters (location and vm_si
 
 https://learn.hashicorp.com/tutorials/terraform/aks?in=terraform/kubernetes#create-an-active-directory-service-principal-account
 
-4. Deploy a basic hello-world Spring Rest Service (you can build the project in the followin [link](https://github.com/mrodfuentes/sharing/tree/main/java-spring-rest-docker))
+# Deploy a basic hello-world Spring Rest Service (you can build the project from the following [link](https://github.com/mrodfuentes/sharing/tree/main/java-spring-rest-docker))
 
 Download the yml files from https://github.com/mrodfuentes/sharing/tree/main/java-spring-rest-docker/deployment.
 
