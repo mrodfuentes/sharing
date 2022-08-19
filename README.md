@@ -1,2 +1,2 @@
 # sharing
-For sharing knowledge..
+For sharing knowledge....
